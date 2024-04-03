@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-    <html lang="en">
+ <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -68,6 +67,7 @@
                             </p>
                             </a>
                         </div>
+                        <button class="button button--flex"id="openPdfButton">Whitepaper</button>
                     </div>
                 </div>
             </section>
@@ -136,7 +136,7 @@
                 <div class="discount__container container grid">
                     <div class="discount__animate">
                         <h2 class="discount__title">Invest in the future<br>  of PaymentSystems</h2>
-                        <p class="discount__description">10% is up for sale as start up. starting from 8000$ per %</p>
+                        <p class="discount__description">8% is up for sale as start up. starting from 10000$ per %</p>
                         <a href="mailto:Fidde.reng@gmail.com" class="button button--flex">
                             <i class="ri-shopping-bag-line button__icon"></i> Contact us
                         </a>
@@ -230,5 +230,10 @@
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
+        <script>
+            document.getElementById("openPdfButton").addEventListener("click", function() {
+              window.open("WP.pdf", "_blank");
+            });
+        </script>
     </body>
 </html>
